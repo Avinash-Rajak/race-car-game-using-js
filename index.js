@@ -28,13 +28,26 @@
 // learning ()
 
 
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
 
-function totallaptime(){
-    let totaltime = lap1 + lap2 + lap3;
-    console.log(totaltime)
+// function totallaptime(){
+//     let totaltime = lap1 + lap2 + lap3;
+//     console.log(totaltime)
+// }
+
+// totallaptime()
+
+
+let lapscompleted = 0
+
+function increment (){
+    lapscompleted = lapscompleted + 1
 }
 
-totallaptime()
+increment()
+increment()
+increment() 
+
+console.log(lapscompleted)
